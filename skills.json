@@ -1,0 +1,15 @@
+{
+    "Python": [],
+    "NumPy": ["Python"],
+    "Pandas": ["Python"],
+    "Statistics": [],
+    "Scikit-learn": ["NumPy", "Statistics"],
+    "Machine Learning": ["Pandas", "Scikit-learn"],
+    "Deep Learning": ["Machine Learning"],
+    "NLP": ["Machine Learning"],
+    "Transformers": ["NLP", "Deep Learning"],
+    "Data Science": ["NumPy", "Pandas", "Statistics"],
+    "Streamlit": ["Python"],
+    "Generative AI": ["Transformers"],
+    "LangChain": ["Generative AI"]
+}
